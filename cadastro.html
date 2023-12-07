@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="icon" type="image/x-ico" href="logo.ico/Design sem nome (1).png">
+    <link rel="stylesheet" href="style2.css"> <!-- Se você tiver um arquivo CSS -->
+</head>
+<body>
+
+    <header>
+        <img src="imagem/LOGO LOJA.png" alt="Logo da Atlantio Brasil">
+    </header>
+
+    <section class="formulario-cadastro">
+        <h2>Cadastro</h2>
+        <!-- Adicione os campos do formulário de cadastro aqui -->
+        <!-- Exemplo: -->
+        <form action="processar_cadastro.php" method="POST">
+            <label for="nome-cadastro">Nome:</label>
+            <input type="text" id="nome-cadastro" name="nome-cadastro" required>
+
+            <label for="email-cadastro">Email:</label>
+            <input type="email" id="email-cadastro" name="email-cadastro" required>
+
+            <label for="senha-cadastro">Senha:</label>
+            <input type="password" id="senha-cadastro" name="senha-cadastro" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Minha Loja Online</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

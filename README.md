@@ -1,2 +1,2 @@
-# project-in-group02
-projeto feito em sala de golpes minha parte a loja modificado
+# project-in-group
+projeto feito em sala de golpes minha parte a loja

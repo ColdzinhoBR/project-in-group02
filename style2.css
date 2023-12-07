@@ -1,0 +1,73 @@
+body, h1, h2, p, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #5bd2f7;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+section.formulario-cadastro {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #e6e941;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e7bb9;
+}
+
+/* Adicionando a mesma pequena alteração para a logo */
+header {
+    position: relative;
+}
+
+#logo img {
+    max-width: 150px; /* Defina o tamanho máximo da logo */
+    margin-right: 20px; /* Adicione um espaçamento à direita */
+}
